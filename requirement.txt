@@ -6,14 +6,20 @@ numpy<2.0
 # Image processing / augmentations
 
 opencv-python<4.11
-opencv-python-headless<4.11
+# opencv-python-headless<4.11
 Pillow
 albumentations
+
+# UI
+streamlit==1.31.1
+streamlit-drawable-canvas==0.9.3
+
+#hugging face
+huggingface-hub
 
 # Deep learning framework
 torch
 torchvision
-torchaudio
 
 # Dataset & evaluation tools
 tqdm
