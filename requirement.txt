@@ -13,6 +13,7 @@ albumentations
 # UI
 streamlit==1.31.1
 streamlit-drawable-canvas==0.9.3
+streamlit-js-eval==0.1.7
 
 #hugging face
 huggingface-hub
