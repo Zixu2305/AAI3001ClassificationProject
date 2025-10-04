@@ -139,23 +139,23 @@ This study compares three loss functions (Focal Loss, Cross-Entropy Loss, and We
 
 #### Findings
 
-![confusion matrix](images/losscomparison/confusionmatrices)
+![confusion matrix](images/losscomparison/confusionmatrices.png)
 *confusion matrices for all models*
 
-![curves](images/losscomparison/curves)
+![curves](images/losscomparison/curves.png)
 *train val loss & accuracy curves for all models*
 
-![confusion matrix](images/losscomparison/confusionmatrices)
+![confusion matrix](images/losscomparison/confusionmatrices.png)
 *confusion matrices for all models*
 
-![gradcamfocal](images/losscomparison/gradcam_focal)
+![gradcamfocal](images/losscomparison/gradcam_focal.png)
 *GradCam for Model A*
 
-![gradcamce](images/losscomparison/gradcam_ce)
+![gradcamce](images/losscomparison/gradcam_ce.png)
 *GradCam for Model B**
 
-![gradcamwce](images/losscomparison/gradcam_wce)
+![gradcamwce](images/losscomparison/gradcam_wce.png)
 *GradCam for Model C**
 
-![tsnefeaturespace3](images/losscomparison/tsnefeaturemap)
+![tsnefeaturespace3](images/losscomparison/tsnefeaturemap.png)
 *TSNE Feature Space for all models**
