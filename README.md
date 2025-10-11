@@ -74,10 +74,10 @@ This frozen approach serves as a baseline to compare against future experiments 
 #### Findings
 
 ![confusion matrix1](images/ablationstudy/1_1.png)
-*normalised confusion matrix (per class accuracy) for unfrozen layer 4 + classifer model
+*normalised confusion matrix (per class accuracy) for unfrozen layer 4 + classifer model*
 
 ![confusion matrix2](images/ablationstudy/1_2.png)
-*normalised confusion matrix (per class accuracy) for only classifer unfrozen model
+*normalised confusion matrix (per class accuracy) for only classifer unfrozen model*
 
 ![curve1](images/ablationstudy/2_1.png)
 *unfrozen layer 4 + classifer model train and val loss curves*
@@ -152,16 +152,16 @@ This study compares three loss functions (Focal Loss, Cross-Entropy Loss, and We
 *GradCam for Model A*
 
 ![gradcamce](images/losscomparison/grad_ce.png)
-*GradCam for Model B**
+*GradCam for Model B*
 
 ![gradcamwce](images/losscomparison/grad_wce.png)
-*GradCam for Model C**
+*GradCam for Model C*
 
 ![tsnefeaturespace3](images/losscomparison/tsnefeaturemap.png)
-*TSNE Feature Space for all models**
+*TSNE Feature Space for all models*
 
 ## Conclusion
-The NuImages dataset demonstrates exceptional quality for multiclass object classification tasks. Although underrepresented classes like trailer, bus and construction vehicles, further regularisation and augmentation may improve the already excellent results (relatively test accuracies, low loss) in our experiments. Going forward, we will be implementing a [Camera Image Labelling Assist Tool] (https://huggingface.co/spaces/ImShooShoo/Street-View-Labeling-Assistant).
+The NuImages dataset demonstrates exceptional quality for multiclass object classification tasks. Although underrepresented classes like trailer, bus and construction vehicles, further regularisation and augmentation may improve the already excellent results (relatively test accuracies, low loss) in our experiments. Going forward, we will be implementing a [Camera Image Labelling Assist Tool](https://huggingface.co/spaces/ImShooShoo/Street-View-Labeling-Assistant).
 
 ## Citation
 Caesar, H., et al. (2020). nuScenes: A multimodal dataset for autonomous driving. https://arxiv.org/pdf/1903.11027
